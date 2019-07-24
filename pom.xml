@@ -23,24 +23,23 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
+				<version>2.2.1</version>
 				<extensions>true</extensions>
 				<configuration>
-							<deploymentType>arm</deploymentType>
+<!--							<deploymentType>arm</deploymentType>
 							<username>${anypoint.user}</username>
 							<password>${anypoint.password}</password>
 							<application>${mule.artifact.fileName}</application>
 							<applicationName>${arm.appName}</applicationName>
 							<target>${arm.server}</target>
 							<targetType>${arm.server.type}</targetType>
-							<!-- One of: server, serverGroup, cluster -->
 							<environment>${anypoint.env}</environment>
 							<businessGroup>${anypoint.org}</businessGroup>
 							<url>https://anypoint.mulesoft.com</url>
 							<properties>
 								<mule.env>${mule.env}</mule.env>
-							</properties>
-						</configuration>
+							</properties> -->
+						</configuration> 
 						<executions>
 							<execution>
 								<id>deploy</id>
