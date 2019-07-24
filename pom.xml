@@ -25,8 +25,8 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>2.2.1</version>
 				<extensions>true</extensions>
-				<configuration>
-<!--							<deploymentType>arm</deploymentType>
+<!--				<configuration>
+							<deploymentType>arm</deploymentType>
 							<username>${anypoint.user}</username>
 							<password>${anypoint.password}</password>
 							<application>${mule.artifact.fileName}</application>
@@ -38,7 +38,7 @@
 							<url>https://anypoint.mulesoft.com</url>
 							<properties>
 								<mule.env>${mule.env}</mule.env>
-							</properties> -->
+							</properties>
 						</configuration> 
 						<executions>
 							<execution>
@@ -48,7 +48,7 @@
 									<goal>deploy</goal>
 								</goals>
 							</execution>
-						</executions>
+						</executions> -->
 			</plugin>
 		</plugins>
 	</build>
